@@ -22,8 +22,8 @@ class Teacher(People):
         self.faculty_no = faculty_no
 
 class GeospatialStudent(Student):
-    def __init__ (self, first_name, last_name, reg no, course):
-        super().__init__(first_name, last_name, reg no)
+    def __init__ (self, first_name, last_name, reg_no, course):
+        super().__init__(first_name, last_name, reg_no)
         self.first_name = first_name
         self.last_name = last_name
         self.last_name = reg_no
